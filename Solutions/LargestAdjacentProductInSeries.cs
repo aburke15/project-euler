@@ -6,13 +6,13 @@ public class LargestAdjacentProductInSeries
 
     public long GetLargestAdjacentProduct(int adjacentDigits)
     {
-        var largestProduct = (long)0;
+        long largestProduct = 0;
         var digits = Digits.ToCharArray();
         
         for (var i = 0; i <= digits.Length - adjacentDigits; i++)
         {
-            var product = (long)1;
-            var count = (short)0;
+            long product = 1;
+            short count = 0;
 
             while (count < adjacentDigits)
             {
