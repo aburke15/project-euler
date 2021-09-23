@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿var largestAdjacentProduct = new LargestAdjacentProductInSeries();
+
+System.Console.WriteLine(
+    largestAdjacentProduct.GetLargestAdjacentProduct(13)
+);
+
