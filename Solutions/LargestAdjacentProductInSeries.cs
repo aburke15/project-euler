@@ -12,7 +12,7 @@ public class LargestAdjacentProductInSeries
         for (var i = 0; i <= digits.Length - adjacentDigits; i++)
         {
             long product = 1;
-            short count = 0;
+            var count = 0;
 
             while (count < adjacentDigits)
             {
