@@ -9,7 +9,7 @@ public class LargestAdjacentProductInSeries
         long largestProduct = 0;
         var digits = Digits.ToCharArray();
         
-        for (var i = 0; i <= digits.Length - adjacentDigits; i++)
+        for (var i = 0; i < digits.Length - adjacentDigits; i++)
         {
             long product = 1;
             var count = 0;
